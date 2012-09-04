@@ -7,8 +7,8 @@ can be accomplished in Python.
 Not intended as a full explanation of Python's inner-workings or Object-Oriented
 Programming (OOP).  These are quick, functioning examples only.
 
-# Reading and Writing to Files (Creating file objects.)
+Reading and Writing to Files (Creating file objects.)
 PythonFileIO.py
 
-# Asking for user input and setting to a value.
+Asking for user input and setting to a value.
 PythonUserInput.py
