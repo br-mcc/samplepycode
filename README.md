@@ -1,4 +1,4 @@
-# Example Python code for newcomers.
+# Example Python (2.4-2.7) code for newcomers.
 
 Intended to serve as independent, sample modules which demonstrate how generic
 programming functions (such as File I/O) and assigning user input to variables
