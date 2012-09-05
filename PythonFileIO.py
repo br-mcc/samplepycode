@@ -1,12 +1,12 @@
-# Open a file and assign to file object "f"
+# Open a file and assign to file object "r"
 # File object accepts the following values:
 #   w   = write-only
 #   w+  = write-only, overwrite existing contents
 #   r   = read-only
 #   r+  = read AND write
 i = open('Test.txt', 'r')               # Open a file for read operations.
-o = open('Test.out', 'w+')              # Open a file for write operations.  (Overwrite file regardless of contents)
-
+o = open('Test.out', 'w+')              # Open a file for write operations.  (Overwrite file contents regardless of contents)
+                                        #   --> This file will be created in the local directory if it doesn't exist.
 
 """
 --------
@@ -53,7 +53,7 @@ WRITING TO A FILE
 --------
 """
 # Write module
-o.write("Some string.")                 # Writes a string to the file declared by "f".  Notice that it is merely appended to the last line.
+o.write("Some string.")                 # Writes a string to the file declared by "o".  Notice that it is merely appended to the last line.
 print 'Write "Some string."'
 print o.read()
 
